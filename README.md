@@ -2,6 +2,34 @@
 
 A Node.js and Express application for managing students and courses. Includes a dynamic Handlebars-based UI.
 
+## Project Structure
+
+- `student-course-management/`
+  - `README.md`
+  - `LICENSE`
+  - `app.js`
+  - `modules/`
+    - `collegeData.js`
+  - `public/`
+    - `css/`
+    - `js/`
+    - `images/`
+  - `views/`
+    - `layouts/`
+      - `main.hbs`
+    - `home.hbs`
+    - `about.hbs`
+    - `htmlDemo.hbs`
+    - `students.hbs`
+    - `student.hbs`
+    - `addStudent.hbs`
+    - `courses.hbs`
+    - `addCourse.hbs`
+    - `404.html`
+  - `.gitignore`
+  - `package.json`
+  - `package-lock.json`
+
 ## Features
 - Add, update, and delete students and courses.
 - View students and courses with filtering options.
